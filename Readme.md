@@ -17,8 +17,7 @@ The robot subscribes to `/scan` data and publishes velocity commands to `/cmd_ve
 3. Adjust angular velocity
 4. Continue forward motion if path is clear
 
-## Demo
-(Add video link)
+
 
 ## How to Run
 
