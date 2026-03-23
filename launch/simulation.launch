@@ -1,0 +1,10 @@
+<launch>
+  <!-- Launch Gazebo with TurtleBot3 world -->
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch"/>
+
+  <!-- Run the obstacle avoidance node -->
+  <node name="obstacle_avoidance"
+        pkg="obstacle_avoidance"
+        type="obstacle_avoidance.py"
+        output="screen"/>
+</launch>
