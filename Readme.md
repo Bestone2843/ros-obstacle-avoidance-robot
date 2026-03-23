@@ -20,6 +20,10 @@ The robot subscribes to `/scan` data and publishes velocity commands to `/cmd_ve
 ## Demo
 (Add video link)
 
+## Screenshots
+
+![Gazebo LiDAR Simulation](images/gazebo_lidar_simulation.svg)
+
 ## How to Run
 
 ```bash
